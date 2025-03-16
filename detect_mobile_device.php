@@ -5,3 +5,9 @@ function detect_mobile_device() {
     }
     return false;
 }
+
+if (detect_mobile_device()) {
+    // Mobile-specific code
+} else {
+    // Desktop-specific code
+}
